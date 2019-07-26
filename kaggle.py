@@ -41,8 +41,8 @@ class args:
     annotations = 'annotations.csv'
     val_annotations = 'val_annotations.csv'
     classes = 'classes.csv'
-    image_min_side = 672
-    image_max_side = 672
+    image_min_side = 1024
+    image_max_side = 1024
     dataset_type = 'csv'
     tensorboard_dir = ''
     evaluation = False
